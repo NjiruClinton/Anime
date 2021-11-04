@@ -1,0 +1,38 @@
+.main{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/src/images/s2.png) center/cover no-repeat fixed;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main .about{
+    font-family: 'Stick', sans-serif;
+    flex: 4;
+}
+.main .about h1{
+    
+  text-decoration-line: underline;
+  text-decoration-style: double;
+    color: whitesmoke;
+}
+.main .about p{
+    color: skyblue;
+
+}
+.main .welcome{
+    font-family: 'Stick', sans-serif;
+    font-weight: bold;
+    list-style: none;
+    flex: 2;
+    font-size: 50px;
+    color: white;
+}
+
+
+.main .welcome li:hover{
+    color: rgba(255, 255, 255, 0.289);
+}
+
+

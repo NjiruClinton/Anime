@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.content{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    color: rgb(232, 240, 240);
+    background-color: rgb(37, 38, 36);
+    margin-top: auto;
+    height: 80px;
+}
+
+.icon{
+    color: white;
+    margin-top: 30px;
+    padding-left: 20px;
+}
+.icon:hover{
+    color: rgba(255, 255, 255, 0.336);
+}

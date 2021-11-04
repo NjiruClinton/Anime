@@ -1,0 +1,23 @@
+.container{
+    font-family: 'Stick', sans-serif;
+    display: flex;
+}
+.container li{
+    font-size: 20px;
+    font-style: serif;
+    font-weight: bold;
+    list-style: none;
+    padding: 10px;
+}
+.container li:hover{
+    color: rgba(67, 67, 196, 0.734);
+}
+.container .logo{
+    margin-top: 5px;
+    font-size: 45px;
+    margin-left: 10px;
+    border-radius: 10px;
+    width: 70px;
+    height: 50px;
+    color: rgba(67, 67, 196, 0.734);
+}
